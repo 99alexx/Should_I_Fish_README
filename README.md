@@ -19,9 +19,12 @@ Collecting and analyzing data from different sources, providing the user with th
 - Maybe implement being able to choose between different types of fish and get an unique index for each fish on the specific day.
 
 # Further implementation
-Adding user for favorite fishing spots
-Users being able to logg successful days
-History analysis - fish caught at index A and not on index B or something like that
+- Adding user for favorite fishing spots
+- Users being able to logg successful days
+- History analysis - fish caught at index A and not on index B or something like that
+
+# Restrictions
+- Only available in Sweden as for now.
 
 # Tech stack
 Begin with a web app - later possibly create mobile app
@@ -34,3 +37,7 @@ Begin with a web app - later possibly create mobile app
 
 Starting with creating a basic layout for the UI using Figma.
 From these Figma prototypes the workflow of creating/coding the UI will be substantially faster
+
+
+# notes TODO
+Make the app in english
