@@ -31,5 +31,6 @@ Begin with a web app - later possibly create mobile app
 
 # Workflow
 - Create a basic UI
+
 Starting with creating a basic layout for the UI using Figma.
 From these Figma prototypes the workflow of creating/coding the UI will be substantially faster
