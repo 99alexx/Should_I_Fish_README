@@ -1,7 +1,7 @@
 # Should_I_Fish_README
 
 # Idea:
-An application providing an index of how good the fishing is for each day.
+An application providing an index of how good the fishing is for the current day.
 
 # What does it solve:
 Collecting and analyzing data from different sources, providing the user with the necessary information all at the same place, aswell as creating a index (Initial scale of index 1-10, 1 = dont bother, 10 = Go fish NOW!).
