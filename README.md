@@ -42,4 +42,5 @@ From these Figma prototypes the workflow of creating/coding the UI will be subst
 ![diagram](images/fetchDiagram.png)
 
 # notes TODO
-Make the app in english
+- Dokumentera licensvillkor
+- Make the app in english
