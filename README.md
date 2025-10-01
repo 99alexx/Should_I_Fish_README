@@ -30,7 +30,7 @@ Collecting and analyzing data from different sources, providing the user with th
 Begin with a web app - later possibly create mobile app
 
 - Frontend: React, Vite, Tailwind, Figma
-- Backend: Java springboot, Python for calculating index
+- Backend: Python Flask and for calculating index
 
 # Workflow
 - Create a basic UI
