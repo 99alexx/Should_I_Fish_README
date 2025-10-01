@@ -32,11 +32,22 @@ Begin with a web app - later possibly create mobile app
 - Frontend: React, Vite, Tailwind, Figma
 - Backend: Python Flask and for calculating index
 
+# My thoghts during the project
+I decided to use Figma to create prototypes which will speed up the process of programming the UI. To start I've decided to create two pages (start and main page) 
+
+After reading up on SMHI API and how it works I've decided, for now, to only use a dropdown meny to choose a location from. This is because SMHI has some demands: Keep the API calls to a reasonable amount and cache the data. So I've decided to use a number of predefined geolocations which will be fetched in intervalls of three hours, because that is the API:s update frequency.
+
+  The option I'm leaning towards is to fetch all the "kommuner" (290) 
+
+
+
 # Workflow
 - Create a basic UI
+- Get backend up and running
+- Fetch data from API and cache it
+- Present the data
+- Create index algoritm
 
-Starting with creating a basic layout for the UI using Figma.
-From these Figma prototypes the workflow of creating/coding the UI will be substantially faster
 
 - Fetch data
 ![diagram](images/fetchDiagram.png)
