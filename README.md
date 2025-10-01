@@ -38,6 +38,8 @@ Begin with a web app - later possibly create mobile app
 Starting with creating a basic layout for the UI using Figma.
 From these Figma prototypes the workflow of creating/coding the UI will be substantially faster
 
+- Fetch data
+![diagram](images/fetchDiagram.png)
 
 # notes TODO
 Make the app in english
