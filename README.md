@@ -33,12 +33,15 @@ Begin with a web app - later possibly create mobile app
 - Backend: Python Flask and for calculating index
 
 # My thoghts during the project
+2025-10-01
 I decided to use Figma to create prototypes which will speed up the process of programming the UI. To start I've decided to create two pages (start and main page) 
 
 After reading up on SMHI API and how it works I've decided, for now, to only use a dropdown meny to choose a location from. This is because SMHI has some demands: Keep the API calls to a reasonable amount and cache the data. So I've decided to use a number of predefined geolocations which will be fetched in intervalls of three hours, because that is the API:s update frequency.
 
-  The option I'm leaning towards is to fetch all the "kommuner" (290) 
+The option I'm leaning towards is to fetch all the "kommuner" (290) 
 
+2025-10-02
+UPDATE - After some research I've decided to move from Python Flask and instead go with Next.js. This decision was made because when I started creating the prototypes in Figma, I created a starting page and started thinking of how I am going to push data between the two different pages. React does have routes but Next does provide this automatically for you, and in the end I can push the whole project (backend and frontend) together. I'm thinking of using Netlify for this. It just overall seemed for a more suitible option for this type of project with increased SEO which is always nice but mostly because of faster and easier deployement + server-side rendering (which is really nice for this type of project). I will still use Python for the calculating algorithm.
 
 
 # Workflow
