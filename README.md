@@ -41,7 +41,7 @@ After reading up on SMHI API and how it works I've decided, for now, to only use
 The option I'm leaning towards is to fetch all the "kommuner" (290) 
 
 2025-10-02
-UPDATE - After some research I've decided to move from Python Flask and instead go with Next.js. This decision was made because when I started creating the prototypes in Figma, I created a starting page and started thinking of how I am going to push data between the two different pages. React does have routes but Next does provide this automatically for you, and in the end I can push the whole project (backend and frontend) together. I'm thinking of using Netlify for this. It just overall seemed for a more suitible option for this type of project with increased SEO which is always nice but mostly because of faster and easier deployement + server-side rendering (which is really nice for this type of project). I will still use Python for the calculating algorithm.
+UPDATE - After some research I've decided to move from Python Flask and instead go with Next.js. This decision was made because when I started creating the prototypes in Figma, I created a starting page and started thinking of how I am going to push data between the two different pages. React does have routes but Next does provide this automatically for you, and in the end I can push the whole project (backend and frontend) together. I'm thinking of using Netlify for this. It just overall seems like a more suitible option for this type of project with increased SEO which is always nice but mostly because of faster and easier deployement + server-side rendering (which is really nice for this type of project). I will still use Python for the calculating algorithm.
 
 
 # Workflow
