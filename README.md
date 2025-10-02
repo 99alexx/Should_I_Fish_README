@@ -50,9 +50,9 @@ UPDATE - After some research I've decided to move from Python Flask and instead 
 - Fetch data from API and cache it
 - Present the data
 - Create index algoritm
-
-
 - Fetch data
+
+
 (THIS DIAGRAM IS NOT A TRUE REPRESENTATION OF THE PROJECT)
 It was used early just for me to get my thoughts out on how it could/should/might look like
 ![diagram](images/fetchDiagram.png)
