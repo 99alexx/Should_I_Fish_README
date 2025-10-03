@@ -29,8 +29,8 @@ Collecting and analyzing data from different sources, providing the user with th
 # Tech stack
 Begin with a web app - later possibly create mobile app
 
-- Frontend: React, Vite, Tailwind, Figma
-- Backend: Python Flask and for calculating index
+- Frontend: Next.js, Vite, Tailwind, Figma
+- Backend: ~~Python Flask~~ Python for calculating index, Redis for caching
 
 # My thoghts during the project
 2025-10-01
