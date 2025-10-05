@@ -55,6 +55,9 @@ Done with the start page, now on to the API / Backend part, before building the 
 - Create index algoritm
 - Fetch data
 
+# Deployement
+Verel (Be sure to check so the python script works, if external libraries are installed, include requirements.txt in root)
+
 
 (THIS DIAGRAM IS NOT A TRUE REPRESENTATION OF THE PROJECT)
 It was used early just for me to get my thoughts out on how it could/should/might look like
