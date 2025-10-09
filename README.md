@@ -32,7 +32,7 @@ Begin with a web app - later possibly create mobile app
 - Frontend: Next.js, Vite, Tailwind, Figma
 - Backend: ~~Python Flask~~ Python for calculating index, Redis for caching
 
-# My thoghts during the project
+# Updates and ideas during development
 2025-10-01
 I decided to use Figma to create prototypes which will speed up the process of programming the UI. To start I've decided to create two pages (start and main page) 
 
