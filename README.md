@@ -41,10 +41,19 @@ After reading up on SMHI API and how it works I've decided, for now, to only use
 The option I'm leaning towards is to fetch all the "kommuner" (290) 
 
 2025-10-02
-UPDATE - After some research I've decided to move from Python Flask and instead go with Next.js. This decision was made because when I started creating the prototypes in Figma, I created a starting page and started thinking of how I am going to push data between the two different pages. React does have routes but Next does provide this automatically for you, and in the end I can push the whole project (backend and frontend) together. I'm thinking of using Netlify for this. It just overall seems like a more suitible option for this type of project with increased SEO which is always nice but mostly because of faster and easier deployement + server-side rendering (which is really nice for this type of project). I will still use Python for the calculating algorithm.
+UPDATE - After some research I've decided to move from Python Flask and instead go with Next.js. This decision was made because when I started creating the prototypes in Figma, I created a starting page and started thinking of how I am going to push data between the two different pages. React does have routes but Next does provide this automatically for you, and in the end I can push the whole project (backend + frontend) as one package. I'm thinking of using Netlify for this. It just overall seems like a more suitible option for this type of project with increased SEO which is always nice but mostly because of faster and easier deployement + server-side rendering (which is really nice for this type of project). I will still use Python for the calculating algoritm.
 
 2025-10-03
 Done with the start page, now on to the API / Backend part, before building the UI for the main page. I'm currently thinking of going with a Cache-Aside approach and use Redis as database. 
+
+2025-10-(3-9)
+I've created my own API which is used to fetch data from the open source SMHI API. In the API I "clean" the fetched data and saves it into a new object and returns it to the frontend. The API also checks if the date already exists in the redis DB, and if so does return this data instead of a new API fetch. 
+
+The UI design is a iterative process, and as mentioned before I'm using Figma for prototyping which has increased the development speed. I've made the main page into three main sections, Header, Navbar and Main Content (Cards).
+The Header shows index of the current hour, together with date-time and location.
+The main content section is a carousel of three Cards (Data, Fish and Info). The data card shows all the data for the current day (by the hour), aswell as 10 days forward. Fish Card will contain necessary information about different kinds of fish and, and Info Card will contain information about how the index is calculated. 
+
+I also decided not to use a 1-10 scale for the index and instead use 1-5, since 1-10 is a unnecessarily wide range.  
 
 
 # Workflow
@@ -53,10 +62,11 @@ Done with the start page, now on to the API / Backend part, before building the 
 - Fetch data from API and cache it
 - Present the data
 - Create index algoritm
-- Fetch data
+- Make calculations
+- Present the calculated data + regular data
 
 # Deployement
-Verel (Be sure to check so the python script works, if external libraries are installed, include requirements.txt in root)
+Vercel (Be sure to check so the python script works, if external libraries are installed, include requirements.txt in root)
 
 
 (THIS DIAGRAM IS NOT A TRUE REPRESENTATION OF THE PROJECT)
