@@ -66,7 +66,8 @@ I also decided not to use a 1-10 scale for the index and instead use 1-5, since 
 - Present the calculated data + regular data
 
 # Deployement
-Vercel (Be sure to check so the python script works, if external libraries are installed, include requirements.txt in root)
+To be decided:
+Netlify or Vercel (Be sure to check so the python script works, if external libraries are installed, include requirements.txt in root)
 
 
 # Calculating index
