@@ -73,6 +73,7 @@ Vercel (Be sure to check so the python script works, if external libraries are i
 My approach is to ask five GenAI (ChatGPT, Gemini, Claude, Perplexity, Grok) to collect reliable data (with sources) about how the different values I'm using (temp, air pressure etc..) affect the fish. I will compare and analyze the answers, and create algoritms accordingly. If 5 of 5 GenAI answers are the same and constructed with relevant sources, they are probably correct and I won't have to compromise. If all the answers differentiate, I will have to look at specific shared and not shared values, and research why they differ. From this I can conclude the data and create the algoritm for the specific value (e.g. temp).
 
 
+# Diagram
 (THIS DIAGRAM IS NOT A TRUE REPRESENTATION OF THE PROJECT)
 It was used early just for me to get my thoughts out on how it could/should/might look like
 ![diagram](images/fetchDiagram.png)
