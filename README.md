@@ -55,6 +55,11 @@ The main content section is a carousel of three Cards (Data, Fish and Info). The
 
 I also decided not to use a 1-10 scale for the index and instead use 1-5, since 1-10 is a unnecessarily wide range.  
 
+UPDATE 2025-10-14:
+After building a functional python script with mock data and getting it to work, I read up on how to implement it to my next project. After some research I've come to understand that it is actually kind of unecessary to use python for my calculations. I will either have to use child_process which will not work if deployed on vercel/netlify. Or use flask and host the API on something like Railway, which is unecessary since it creates more dependency, potentially increased cost, and complexity. 
+
+I wanted to use python which I've gotten to do and learned a bit about it so it has not been a total waste of time. I will however convert the calculate script to JS, it will be done fast since I already have a working "prototype".
+
 
 # Workflow
 - Create a basic UI
