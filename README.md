@@ -60,6 +60,8 @@ After building a functional python script with mock data and getting it to work,
 
 I wanted to use python which I've gotten to do and learned a bit about it so it has not been a total waste of time. I will however convert the calculate script to JS, it will be done fast since I already have a working "prototype".
 
+Decided to go with one decimal for the index(e.g. 4.2) instead of a whole number , since it gives and feels lika a more accurate and honest value.
+
 
 # Workflow
 - Create a basic UI
