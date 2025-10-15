@@ -62,6 +62,17 @@ I wanted to use python which I've gotten to do and learned a bit about it so it 
 
 Decided to go with one decimal for the index(e.g. 4.2) instead of a whole number , since it gives and feels lika a more accurate and honest value.
 
+2025-10-15:
+Converted the calculate algoritm to JavaScript, and it is working well. I also decided to include a average index value, which is the primary data the user will see. I think it is more valuable to see an average index of the whole day, and also have the option to check specific hours during the day. I decided to make two types of index's, one with Solunar and one without in the calculation, since it is somewhat of a "controversial" metric. So making it on/off option is advantageous. 
+
+To make it as user friendly as possible, I want the user to quickly understand the index and what it means, so I'm thinking of making a info box in the header, if clicked the user will be navigated to the "Info Card". I have already implemented the navigation part. 
+
+I think the majority of backend functionality is finished. Next step is to:
+- Finish the UI
+- Make it responsive
+- On/Off button for solunar values
+- Implement robust error handling
+
 
 # Workflow
 - Create a basic UI
