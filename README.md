@@ -118,7 +118,10 @@ Startscreen prototypes:
 
 | ![Start screen](images/start.png) | ![Updated start](images/start2.png) |
 
+Mainscreen prototypes:
+These worked like a good template to build from, and during coding changes where of course made but having these prototypes made it much easier. Almost like a basic blueprint. 
 
+![Progress 1](images/progress1.png) ![Progress color](images/progress2.png)
 
 
 # Diagram
