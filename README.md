@@ -116,7 +116,7 @@ My approach is to ask five GenAI (ChatGPT, Gemini, Claude, Perplexity, Grok) to 
 # Figma prototypes
 Startscreen prototypes:
 
-![Start screen](images/start.png) ![Updated start](images/start.png)
+![Start screen](images/start.png) ![Updated start](images/start2.png)
 
 Mainscreen prototypes:
 
