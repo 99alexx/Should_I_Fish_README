@@ -1,4 +1,4 @@
-# Should_I_Fish_README
+# FiskeIndex_README
 
 # Idea:
 An application providing an index of how good the fishing is for the current day.
